@@ -39,19 +39,19 @@
 * Example: curl -X PUT "http://localhost:8080/api-challenge/superheroes/admin/actualizarSuperHereo" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"edad\": 34, \"id\": 4, \"nombre\": \"rwer\", \"origenPoderId\": 1, \"profesion\": \"rt\", \"puedeVolar\": \"r\", \"sexoId\": 1}"
 
 
-### GET request to `/super-heroes/name-like/{name}
+### GET request to `api-challenge/super-heroes/name-like/{name}
 
-* Example: curl -X GET "http://localhost:8080/api-challenge/super-heroes/name-like/man" -H  "accept: */*"
+* Example: curl -X GET "http://localhost:8080/api-challenge/superheroes/getSuperHeroeByParam/man" -H  "accept: */*"
 
 
 ### DELETE request to `/superheroes/admin/eliminarSuperHereo/{id} 
 
-* Example: curl -X DELETE "http://localhost:8080/superheroes/admin/eliminarSuperHereo/2" -H "accept: */*"
+* Example: curl -X DELETE "http://localhost:8080/api-challenge/superheroes/admin/eliminarSuperHereo/2" -H "accept: */*"
 
 
-### GET request to `/super-heroes/name-like/{name}
+### GET request to `/api-challenge/superheroes/getSuperHeroes
 
-* Example: curl -X GET "http://localhost:8080/superheroes/getSuperHeroes" -H "accept: */*"
+* Example: curl -X GET "http://localhost:8080/api-challenge/superheroes/getSuperHeroes" -H "accept: */*"
 
 
 ## 2- Run Test from Image Docker Hub :
@@ -68,7 +68,11 @@
 ## 3- Credentials :
 
 
-### Authentication --> rol admin : admin/pass  --> rol user : user/pass
+### Authentication 
+
+* rol admin : admin/pass 
+ 
+*  rol user : user/pass
 
 
 ### H2 --> /h2-console 
