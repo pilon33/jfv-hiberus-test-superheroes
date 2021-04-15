@@ -17,10 +17,10 @@
 4) Runs As --> Spring Boot App 
 
 
-###  Swagger UI:
+###  Doc Swagger UI:
 
 
-![image](https://user-images.githubusercontent.com/12847173/114819090-45b25300-9d93-11eb-9a54-a2101b7789cd.png)
+![image](https://user-images.githubusercontent.com/12847173/114820353-3df3ae00-9d95-11eb-855b-58c9ac92eed6.png)
 
 
 
