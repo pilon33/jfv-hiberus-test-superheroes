@@ -20,7 +20,8 @@
 ###  Swagger UI:
 
 
-![image](https://user-images.githubusercontent.com/12847173/114443594-3f11b900-9ba4-11eb-9d87-382d3722bbb8.png)
+![image](https://user-images.githubusercontent.com/12847173/114819090-45b25300-9d93-11eb-9a54-a2101b7789cd.png)
+
 
 
 
@@ -33,22 +34,25 @@
 * Example: curl -X GET "http://localhost:8080/api-challenge/inputList/getOrigenesPoder "accept: */*"
 
 
-
-### PUT request to `http://localhost:8080/superheroes/admin/actualizarSuperHereo
+### PUT request to    `/api-challenge/superheroes/admin/actualizarSuperHereo
 
 * Example: curl -X PUT "http://localhost:8080/api-challenge/superheroes/admin/actualizarSuperHereo" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"edad\": 34, \"id\": 4, \"nombre\": \"rwer\", \"origenPoderId\": 1, \"profesion\": \"rt\", \"puedeVolar\": \"r\", \"sexoId\": 1}"
+
 
 ### GET request to `/super-heroes/name-like/{name}
 
 * Example: curl -X GET "http://localhost:8080/api-challenge/super-heroes/name-like/man" -H  "accept: */*"
 
+
 ### DELETE request to `/superheroes/admin/eliminarSuperHereo/{id} 
 
 * Example: curl -X DELETE "http://localhost:8080/superheroes/admin/eliminarSuperHereo/2" -H "accept: */*"
 
+
 ### GET request to `/super-heroes/name-like/{name}
 
 * Example: curl -X GET "http://localhost:8080/superheroes/getSuperHeroes" -H "accept: */*"
+
 
 ## 2- Run Test from Image Docker Hub :
   
@@ -57,7 +61,7 @@
 * docker run -p 8080:8080 jfvadez/jfv-challenge-hiberus-docker-img
 
 
-![image](https://user-images.githubusercontent.com/12847173/114443779-7a13ec80-9ba4-11eb-86d3-7ecc1523de21.png)
+![image](https://user-images.githubusercontent.com/12847173/114819064-36330a00-9d93-11eb-9559-89860948e355.png)
 
 
 
