@@ -61,7 +61,7 @@
 * docker run -p 8080:8080 jfvadez/jfv-challenge-hiberus-docker-img
 
 
-![image](https://user-images.githubusercontent.com/12847173/114819064-36330a00-9d93-11eb-9559-89860948e355.png)
+![image](https://user-images.githubusercontent.com/12847173/114819353-bfe2d780-9d93-11eb-9f21-2487eeef16c6.png)
 
 
 
